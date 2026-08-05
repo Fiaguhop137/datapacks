@@ -1,0 +1,3 @@
+execute as @a[nbt={FallFlying:1b}] at @s if items entity @s armor.chest minecraft:elytra[minecraft:item_model="phoenixwings:phoenix_wings"] run particle minecraft:flame ^-1.2 ^0.6 ^0 0.05 0.05 0.05 0.01 2 normal
+execute as @a[nbt={FallFlying:1b}] at @s if items entity @s armor.chest minecraft:elytra[minecraft:item_model="phoenixwings:phoenix_wings"] run particle minecraft:flame ^1.2 ^0.6 ^0 0.05 0.05 0.05 0.01 2 normal
+execute as @a[nbt={FallFlying:1b}] if items entity @s armor.chest minecraft:elytra[minecraft:item_model="phoenixwings:phoenix_wings"] at @s run execute as @e[distance=0.1..2] at @s run summon small_fireball ~ ~1.81 ~ {Motion:[0.0,-1.0,0.0]}
