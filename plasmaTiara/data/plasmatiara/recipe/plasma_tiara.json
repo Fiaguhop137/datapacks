@@ -3,28 +3,26 @@
   "show_notification": true,
   "category": "equipment",
   "pattern": [
-    "FCF",
-    "BEB"
+    "GRG",
+    "BWB"
   ],
   "key": {
-    "B": "minecraft:blaze_powder",
-    "C": "minecraft:fire_charge",
-    "E": "minecraft:elytra",
-    "F": "minecraft:feather"
+    "B": "minecraft:blaze_rod",
+    "G": "minecraft:gold_block",
+    "R": "minecraft:clock",
+    "W": "minecraft:wither_skeleton_skull"
   },
   "result": {
-    "id": "minecraft:elytra",
+    "id": "minecraft:golden_helmet",
     "components": {
       "minecraft:max_damage": 225,
-      "minecraft:repairable": {
-      	"items": "minecraft:blaze_powder"
-      },
-      "minecraft:item_model": "phoenixwings:phoenix_wings",
+      "minecraft:repairable": {"items": "minecraft:gold_ingot"},
+      "minecraft:item_model": "plasmatiara:plasma_tiara",
       "minecraft:equippable": {
-	  "slot": "chest",
-	  "asset_id": "phoenixwings:phoenix_wings"
+	  "slot": "head",
+	  "asset_id": "plasmatiara:plasma_tiara"
       },
-      "minecraft:custom_name": {"text": "Phoenix Wings","type": "text","italic": false}
+      "minecraft:custom_name": {"text": "Plasma Tiara","type": "text","italic": false}
     },
     "count": 1
   }
